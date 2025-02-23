@@ -52,13 +52,50 @@
             Rising Phoenix College has made significant strides in the field of quantum computing. Our dedicated team of researchers and students have developed cutting-edge technologies that push the boundaries of what is possible in this revolutionary field.
         </p>
     </div>
-    <script>
-        fetch('footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.body.insertAdjacentHTML('beforeend', data);
-            });
-    </script>
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase font-weight-bold">Rising Phoenix College</h5>
+                    <p>
+                        Empowering students to achieve their full potential through quality education and holistic development.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase font-weight-bold">Follow Us</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-2">
+                            <a href="#" class="text-dark d-flex align-items-center">
+                                <img src="https://img.icons8.com/fluent/24/000000/instagram-new.png" alt="Instagram" class="mr-2">
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-dark d-flex align-items-center">
+                                <img src="https://img.icons8.com/fluent/24/000000/twitter.png" alt="Twitter" class="mr-2">
+                                Twitter
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-dark d-flex align-items-center">
+                                <img src="https://img.icons8.com/fluent/24/000000/linkedin.png" alt="LinkedIn" class="mr-2">
+                                LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © <script>document.write(new Date().getFullYear());</script> Rising Phoenix College. All rights reserved.
+            <br>
+            Created by RPSS
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>
